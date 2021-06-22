@@ -1,0 +1,16 @@
+                           
+    
+       _____ ______ _____  
+      / ____|  ____|  __ \ 
+     | (___ | |__  | |  | |
+      \___ \|  __| | |  | |
+      ____) | |____| |__| |
+     |_____/|______|_____/ 
+                           
+     System equipment data
+            v1.0.0
+                           
+
+     Developed by $lxy Txz
+  https://github.com/Sytroxitz
+                           
