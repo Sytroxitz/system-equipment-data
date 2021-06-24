@@ -139,11 +139,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\cpuinfo.cpp" />
+    <ClCompile Include="src\cpuinfodelegate.cpp" />
+    <ClCompile Include="src\gpuinfo.cpp" />
+    <ClCompile Include="src\gpuinfodelegate.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\motherboardinfo.cpp" />
+    <ClCompile Include="src\motherboardinfodelegate.cpp" />
+    <ClCompile Include="src\osinfo.cpp" />
+    <ClCompile Include="src\osinfodelegate.cpp" />
+    <ClCompile Include="src\raminfo.cpp" />
+    <ClCompile Include="src\raminfodelegate.cpp" />
+    <ClCompile Include="src\systemcommand.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="startup.txt" />
-    <Text Include="startupold.txt" />
+    <ClInclude Include="src\headers\cpuinfo.h" />
+    <ClInclude Include="src\headers\cpuinfodelegate.h" />
+    <ClInclude Include="src\headers\gpuinfo.h" />
+    <ClInclude Include="src\headers\gpuinfodelegate.h" />
+    <ClInclude Include="src\headers\motherboardinfo.h" />
+    <ClInclude Include="src\headers\motherboardinfodelegate.h" />
+    <ClInclude Include="src\headers\osinfo.h" />
+    <ClInclude Include="src\headers\osinfodelegate.h" />
+    <ClInclude Include="src\headers\raminfo.h" />
+    <ClInclude Include="src\headers\raminfodelegate.h" />
+    <ClInclude Include="src\headers\systemcommand.h" />
+    <ClInclude Include="src\headers\systeminfo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\startup.txt" />
+    <Text Include="src\startupold.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
