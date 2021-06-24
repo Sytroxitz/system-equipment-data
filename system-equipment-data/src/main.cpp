@@ -13,7 +13,7 @@ using namespace std;
 
 int main(int argc, char *argv[]) {
 
-// System data
+	// System data
 
 	//First make a delegate object that handles the cases where the computer has multiple CPUs
 	std::unique_ptr<CPUInfoDelegate> cpuInfo = std::make_unique<CPUInfoDelegate>();
@@ -122,7 +122,6 @@ int main(int argc, char *argv[]) {
 		std::cout << "Current Date Time =		" << iter->currentDateTime() << std::endl;
 		std::cout << std::endl;
 	}
-
 
 	std::cout << std::endl << "Press any button and enter to continue...";
 	std::cin.get();
