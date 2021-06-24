@@ -13,34 +13,6 @@ using namespace std;
 
 int main(int argc, char *argv[]) {
 
-    /*fstream startup;
-    startup.open("startup.txt", ios::in); //open a file to perform read operation using file object
-    if (startup.is_open()) {   //checking whether the file is open
-        string tp;
-        while (getline(startup, tp)) {  //read data from file object and put it into string.
-            cout << tp << "\n";   //print the data of the string
-        }
-        startup.close();   //close the file object.
-    }
-
-	//Opens .txt file
-	ifstream startup;
-	startup.open("startup.txt", ios::in);
-
-	//Fail check
-	if (startup.fail())
-	{
-		cout << "File failed to open.\n";
-		exit(1);
-	}
-
-	//Prints file to screen (not correctly)
-	std::cout << startup << "\n" << std::endl;
-
-	//Closes file
-	startup.close();*/
-
-
     // System data
 
 	//First make a delegate object that handles the cases where the computer has multiple CPUs
@@ -48,18 +20,6 @@ int main(int argc, char *argv[]) {
 
 	//Then extract the separate CPUs into a vector (of CPUInfo objects)
 	std::vector<CPUInfo> cpuInfoVector{ cpuInfo->cpuInfoVector() };
-
-	//Print out the startup.txt file
-
-	/*fstream startup;
-	startup.open("startup.txt", ios::in); //open a file to perform read operation using file object
-	if (startup.is_open()) {   //checking whether the file is open
-		string tp;
-		while (getline(startup, tp)) {  //read data from file object and put it into string.
-			std::cout << tp << "\n";   //print the data of the string
-		}
-		startup.close();   //close the file object.
-	}*/
 
 	//Print out the number of CPUs, directory from the delegate object
 	std::cout << 
