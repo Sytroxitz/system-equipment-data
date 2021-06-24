@@ -123,7 +123,6 @@ int main(int argc, char *argv[]) {
 		std::cout << std::endl;
 	}
 
-
 	std::cout << std::endl << "Press any button and enter to continue...";
 	std::cin.get();
 
