@@ -97,5 +97,8 @@
     <Text Include="src\startupold.txt">
       <Filter>Quelldateien</Filter>
     </Text>
+    <Text Include="src\resources\etc.txt">
+      <Filter>Ressourcendateien</Filter>
+    </Text>
   </ItemGroup>
 </Project>
